@@ -20,8 +20,6 @@ import java.util.List;
  * 2.) Use the write()-Methods and append()-Methods (as well as their variations) to add new information to the logfile.
  * Multiple LoggingUtil-Objects can write to the same logfile.
  *
- * @author Sebastian Wewer
- * @version 0.2
  */
 public class LoggingUtil {
     private static final String STANDARD_PATH = "." + File.separatorChar + "logs";
