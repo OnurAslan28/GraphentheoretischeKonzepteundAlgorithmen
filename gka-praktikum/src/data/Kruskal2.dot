@@ -1,0 +1,21 @@
+graph {
+    graph[MST=39];
+    "a" ;
+    "b" ;
+    "c" ;
+    "d" ;
+    "e" ;
+    "f" ;
+    "g" ;
+    "a" -- "b" [weight=7.0, label="7"];
+    "a" -- "d" [weight=5.0, label="5"];
+    "b" -- "c" [weight=8.0, label="8"];
+    "b" -- "e" [weight=7.0, label="7"];
+    "b" -- "d" [weight=9.0, label="9"];
+    "c" -- "e" [weight=5.0, label="5"];
+    "d" -- "e" [weight=15.0, label="15"];
+    "e" -- "g" [weight=9.0, label="9"];
+    "e" -- "f" [weight=8.0, label="8"];
+    "g" -- "f" [weight=11.0, label="11"];
+    "f" -- "d" [weight=6.0, label="6"];
+}

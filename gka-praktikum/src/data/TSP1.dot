@@ -1,0 +1,14 @@
+graph {
+    graph[optimalPath=80];
+	A;
+	B;
+	C;
+	D;
+	A--B[weight=10];
+	A--C[weight=15];
+	A--D[weight=20];
+	B--C[weight=35];
+	B--D[weight=25];
+	C--D[weight=30];
+
+}

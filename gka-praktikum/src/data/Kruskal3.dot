@@ -1,0 +1,18 @@
+graph {
+    graph[MST=20];
+    "s" ;
+    "a" ;
+    "b" ;
+    "c" ;
+    "d" ;
+    "t" ;
+    "s" -- "a" [weight=7.0, label="7"];
+    "s" -- "c" [weight=8.0, label="8"];
+    "a" -- "b" [weight=6.0, label="6"];
+    "b" -- "t" [weight=5.0, label="5"];
+    "a" -- "c" [weight=8.0, label="8"];
+    "c" -- "d" [weight=3.0, label="3"];
+    "c" -- "b" [weight=4.0, label="4"];
+    "b" -- "d" [weight=2.0, label="2"];
+    "d" -- "t" [weight=2.0, label="2"];
+}
